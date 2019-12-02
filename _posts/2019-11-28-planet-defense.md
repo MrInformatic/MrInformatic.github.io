@@ -10,6 +10,7 @@ categories:
 
 ## Gameplay Video
 
+<iframe width="1024" height="576" src="https://www.youtube.com/embed/oTESaVKJJFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Idea and Team
 

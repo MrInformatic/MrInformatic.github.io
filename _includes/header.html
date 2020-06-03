@@ -1,0 +1,32 @@
+<header>
+    {% for item in site.data.header %}
+    <div class="slides" style="background-image: url({{ item }});">
+    </div>
+    {% endfor %}
+    <script>
+        var currentSlide = 0;
+        showSlide(currentSlide);
+
+        function showSlide(slideIndex) {
+            let slides = document.getElementsByClassName("slides");
+            let oldSlide = currentSlide;
+            currentSlide = slideIndex % slides.length;
+            for(let slide of slides) {
+                slide.style.display = "none";
+                slide.classList.remove("old", "new")
+            }
+            if(currentSlide === oldSlide) {
+                slides[currentSlide].style.display = "block";
+            } else {
+                slides[currentSlide].style.display = "block";
+                slides[currentSlide].classList.add("new");
+                slides[oldSlide].style.display = "block";
+                slides[oldSlide].classList.add("old");
+            }
+        }
+
+        setInterval(function() {
+            showSlide(currentSlide + 1)
+        }, 5000)
+    </script>
+</header>

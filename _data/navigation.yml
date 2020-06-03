@@ -1,2 +1,4 @@
-- name: Featured Projects
+- name: Home
   link: /
+- name: Featured Projects
+  link: /featured_projects.html

@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Sphere Audio Visualizer"
+title: "Rendy Sphere Visualizer"
 date: 2019-11-28
-image: /assets/images/sphere_audio_visualizer_thumbnail.jpg
+image: /assets/images/sphere_audio_visualizer_preview.jpg
 summary: 
 categories:
   - featured
   - free time project
+links:
+  - name: GitHub
+    url: https://github.com/MrInformatic/rendy-sphere-visualizer
+    color: red
+  - name: Demo Video
+    url: https://www.youtube.com/watch?v=Hfbo6E0vXDM
+    color: blue
 ---
 
 ## Demo Video
@@ -23,7 +30,7 @@ categories:
 
 <!--excerpt.start-->
 
-The Sphere Audio Visualizer Project is a series of renderes useing different Technics to Render The above show scene as fast as possible. Technics and technologies used in this project are: Raytraceing, PBR, OpenGL, realtime rendering, distance field ambient occlusion
+Rendy Sphere Visualizer is a render optimized for rendering spheres it uses different like distance field ambient occlusion and raytraced shadows to archive high fidelity graphics in real time. I manly use it as an visualizer for music. As the name implies I have used the Rendy rendering framework. Rendy uses gfx-hal which is an hardware abstraction layer which abstract many graphics apis like Vulkan, D3D, Metal or OpenGL. Therefore, this project can run on a variety of platforms. 
 
 <!--excerpt.end-->
 

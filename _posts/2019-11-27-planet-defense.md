@@ -2,10 +2,14 @@
 layout: post
 title: "Planet Defense"
 date: 2019-11-28
-image: /assets/images/planet_defense_thumbnail.jpg
+image: /assets/images/planet_defense_preview.jpg
 categories:
   - featured
   - university project
+links:
+  - name: Demo Video
+    url: https://www.youtube.com/watch?v=oTESaVKJJFk
+    color: blue
 ---
 
 ## Gameplay Video
@@ -16,25 +20,19 @@ categories:
 
 <!--excerpt.start-->
 
-Planet Defense is a tower defense game in which the player places his or her towers on the surface of a planet. The planet's surface is divided into fragments. In the battle phase, asteroids are flying from all directions towards the planet. The towers attack the asteroids. Every destroyed asteroid yields points. If a tower gets hit by an asteroid the tower gets destroyed. If a fragment of the planet gets hit it takes damage. If fragment gets hit 3 times it gets destroyed revealing the core of the planet. If the core gets hit the game is over. 
+Planet Defense is a tower defense game in which the player places the towers on the surface of a planet instead of an 2d plane. The enemies (asteroids) fly from any direction towards the planet. The Project was realized as part of an bachelor module in a team consisting of 3 people.
 
-<!--excerpt.end-->
+## My role
 
-The game gets developed as part of the bachelor module game development and creative coding. The team consists of 3 people. Sadly one of the members had to leave due to time constraints. 
-
-## My Roll
-
-I have worked as a designer as well as a programmer on that project. As Programmer I worked on:
-
- * Planet Fragment generation
+ * koncept
+ * paper prototype
+ * balancing
+ * Planet mesh generation
  * Tower Placement
- * Tower Upgrade
- * Tower Sell
+ * Tower Interaction
  * Life System
 
-As designer I worked on the koncept, paper prototype, and balancing.
-
-I was the one with the most experience in Unity and game development experience in general. Therfore i helpt my team to find a good start into the Unity game engine. Above all, I made sure that ideas of the team are technically feasible and can be worked out in the timetable given to us.
+<!--excerpt.end-->
 
 ## Technical Chalenges
 

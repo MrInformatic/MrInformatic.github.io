@@ -2,10 +2,27 @@
 layout: default
 title: Home
 ---
-{% for post in site.categories["home"] %}
+{% for post in site.categories["featured"] %}
 <article>
+    <header>
+        <div class="preview-image" style="background-image: url({{ post.image }});">
+        </div>
+    </header>
     <section>
-        {{ post.content }}
+        <div>
+            <h1>{{ post.title }}</h1>
+            {% if post.content contains '<!--excerpt.start-->' and post.content contains '<!--excerpt.end-->' %}
+                {{ ((post.content | split:'<!--excerpt.start-->' | last) | split: '<!--excerpt.end-->' | first) }}
+            {% else %}
+                {{ post.content | strip_html | truncatewords: 20 }}
+            {% endif %}
+        </div>
+        <div class="split"></div>
+        <div>
+            {% for link in post.links %}
+            <a class="project-link {{link.color}}" href="{{ link.url }}">{{ link.name }}</a>
+            {%endfor%}
+        </div>
     </section>
 </article>
 {% endfor %}

@@ -30,7 +30,7 @@ links:
 
 <!--excerpt.start-->
 
-Rendy Sphere Visualizer is a render optimized for rendering spheres it uses different like distance field ambient occlusion and raytraced shadows to archive high fidelity graphics in real time. I manly use it as an visualizer for music. As the name implies I have used the Rendy rendering framework. Rendy uses gfx-hal which is an hardware abstraction layer which abstract many graphics apis like Vulkan, D3D, Metal or OpenGL. Therefore, this project can run on a variety of platforms. 
+Rendy Sphere Visualizer is a render optimized for rendering spheres it uses different technics like distance field ambient occlusion and raytraced shadows to archive high fidelity graphics in real-time. I mainly use it as a visualizer for music. As the name implies I have used the Rendy rendering framework. Rendy uses gfx-hal which is a hardware abstraction layer that abstracts many graphics APIs like Vulkan, D3D, Metal, or OpenGL. Therefore, this project can run on a variety of platforms.
 
 <!--excerpt.end-->
 

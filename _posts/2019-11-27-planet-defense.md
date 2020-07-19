@@ -20,17 +20,17 @@ links:
 
 <!--excerpt.start-->
 
-Planet Defense is a tower defense game in which the player places the towers on the surface of a planet instead of a 2d plane. The enemies (asteroids) fly from any direction towards the planet. The project was realized as part of a bachelor module in a team consisting of 3 people.
+Planet Defense is a tower defense game in which the player places towers on the surface of a planet instead of an 2d plane. The enemies (asteroids) fly from any direction towards the planet. The Project was realized as part of a university module in a team consisting of three people.
 
 ## My role
 
  * concept
  * paper prototype
  * balancing
- * Planet mesh generation
- * Tower Placement
- * Tower Interaction
- * Life System
+ * planet mesh generation
+ * tower placement
+ * tower interaction
+ * life system
 
 <!--excerpt.end-->
 

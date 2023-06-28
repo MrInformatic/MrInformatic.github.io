@@ -5,7 +5,6 @@ date: 2019-11-28
 image: /assets/images/sphere_audio_visualizer_preview.jpg
 summary: 
 categories:
-  - featured
   - free time project
 links:
   - name: GitHub
